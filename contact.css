@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
 }
+/*background image*/
 #banner{
     opacity: 3.0;
     background-size: cover;
@@ -9,6 +10,7 @@
     height: 105vh;
     animation: animate 13s ease-in-out infinite;
 }
+/*animate different images for background*/
 @keyframes animate{
     0%,100%{
         background-image:linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.5)), url('bg.png');
@@ -197,6 +199,7 @@ nav ul li a{
     padding: 10px;
     font-size: 18px;
 }
+/*media query for iPhone 4*/
 @media screen and (max-width:320px){
     #banner{
         width: 120%;
@@ -216,12 +219,14 @@ nav ul li a{
         font-size: 30px;
     }
 }
+/*media query for iphone iPhone 4*/
 @media screen and (min-width:321px) and (max-width:375px){
     .container .contactInfo{
         margin-right: 100px;
         margin-bottom: 20px;
     }
 }
+/*midea query*/
 @media screen and (max-width:480px) {
     #banner{
         height: 100%;
@@ -240,6 +245,7 @@ nav ul li a{
         width: 90%;
     }
 }
+/*media query*/
 @media screen and (min-width:481px) and (max-width:800px) {
     #banner{
         height: 100%;
@@ -258,6 +264,7 @@ nav ul li a{
         width: 90%;
     }
 }
+/*media query*/
 @media screen and (min-width:801px) and (max-width:1024px) {
     #banner{
         height: 100%;
@@ -268,3 +275,4 @@ nav ul li a{
         padding-top: 20px;
     }
 }
+/*end of footer*/
