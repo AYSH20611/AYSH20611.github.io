@@ -26,24 +26,28 @@
         background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.9)),url('bg4.jpg');
     }
 }
+/*icon as image*/
 .icon{
     width: 140px;
     position: absolute;
     top: 4%;
     left: 5%;
 }
+/* styles for heading part*/
 .banner-text{
     text-align: center;
     color: #fff;
     padding-top: 80px;
     padding-bottom: 10px;
 }
+/*main heading*/
 .banner-text h1{
     font-size: 60px;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
     'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     letter-spacing: 3px;
 }
+/*menu bar*/
 #sideNav{
     width: 250px;
     height: 100vh;
@@ -54,15 +58,18 @@
     z-index: 2;
     transition: 0.5s;
 }
+/*style for nav bar's unodered list*/
 nav ul li{
     list-style: none;
     margin: 50px 20px;
 }
+/*style for nav bar's unodered list and links*/
 nav ul li a{
     text-decoration: none;
     color: #fff;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
 }
+/*menu button position*/
 #menuBtn{
     width: 40px;
     height: 40px;
@@ -75,6 +82,7 @@ nav ul li a{
     cursor: pointer;
     background:#1f6760;
 }
+/*menu bar image*/
 #menuBtn img{
     margin-top: 12px;
 }
@@ -83,6 +91,8 @@ nav ul li a{
     height: 20px;
 }
 /*slider page*/
+CSS
+/* Styles for the title section*/
 .title{
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 2.9rem;
@@ -92,6 +102,7 @@ nav ul li a{
     text-transform: uppercase;
     text-align: center;
 }
+/* Styles for the paragraph within the title*/
 .title p{
     color: black;
     margin-left: 15%;
@@ -101,14 +112,17 @@ nav ul li a{
     text-align: center;
     text-transform: lowercase;
 }
+/* Styles for the main container*/
 .container{
     margin-left: 270px;
     max-width: 980px;
     width: 60%;
 }
+/* Styles for the slider wrapper*/
 .slider-wrapper{
     position: relative;
 }
+/* Styles for slider navigation buttons*/
 .slider-wrapper .slide-button{
     position: absolute;
     top: 50%;
@@ -123,14 +137,15 @@ nav ul li a{
     border-radius: 50%;
     transition: translateY(-50%);
 }
-
+/* Specific positioning for previous and next buttons*/
 .slider-wrapper .slide-button#prev-slide{
     left: -20px;
 }
+ /* Positions the next button to the right */
 .slider-wrapper .slide-button#next-slide{
     right: -20px;
 }
-
+/* Styles for the image list within the slider*/
 .slider-wrapper .image-list{
     display: grid;
     grid-gap: 18px;
@@ -140,20 +155,24 @@ nav ul li a{
     scrollbar-width: none;
     grid-template-columns: repeat(10, 1fr);
 }
+/* Hides default scrollbar within the image list*/
 .slider-wrapper .image-list::-webkit-scrollbar{
     display: none;
 }
+/* Styles for individual image items within the slider*/
 .slider-wrapper .image-list .image-item{
     width: 325px;
     height: 400px;
     object-fit: cover;
 }
+/* Styles for the custom scrollbar container*/
 .container .slider-scrollbar{
     height: 24px;
     width: 100%;
     display: flex;
     align-items: center;
 }
+/* Styles for the scrollbar track*/
 .slider-scrollbar .scrollbar-track{
     height: 2px;
     width: 100%;
@@ -161,9 +180,11 @@ nav ul li a{
     position: relative;
     border-radius: 4px;
 }
+/* Hover effect for the scrollbar track*/
 .slider-scrollbar:hover .scrollbar-track{
     height: 4px;
 }
+/*Styles for buttons */
 button{
     width: 30px;
     height: 30px;
@@ -264,6 +285,7 @@ button{
 }
 /*end of slider page*/
 /*Different galleries*/
+/* Styles for the main gallery container*/
 .gallery{
     width: 80%;
     margin: auto;
@@ -273,18 +295,22 @@ button{
     color: #257476;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+/* Adjusts font size for the main heading within the gallery: */
 .title h1{
     font-size: 30px;
 }
+/* Styles for paragraphs within the gallery:*/
 .gallery p{
     color: black;
     padding-top: 10px;
 }
+/* Styles for image rows*/
 .row{
     margin-top: 5%;
     display: flex;
     justify-content: space-between;
 }
+/* Styles for individual image columns*/
 .gallery-col{
     flex-basis: 32%;
     border-radius: 10px;
@@ -292,11 +318,13 @@ button{
     position: relative;
     overflow: hidden;
 }
+/* Styles for images within the columns*/
 .gallery-col img{
     height: 400px;
     width: 100%;
     display: block;
 }
+/* Styles for the overlay layer on images*/
 .layer{
     background: transparent;
     height: 100%;
@@ -306,9 +334,11 @@ button{
     left: 0;
     transition: 0.5s;
 }
+/* Hover effect for the overlay layer*/
 .layer:hover{
     background: rgba(226,0,0,0.4);
 }
+/* Styles for the image captions within the overlay layer*/
 .layer h3{
     width: 100%;
     color: #fff;
@@ -320,6 +350,7 @@ button{
     opacity: 0;
     transition: 0.5s;
 }
+/* Hover effect for the captions*/
 .layer:hover h3{
     bottom: 49%;
     opacity: 1;
@@ -360,10 +391,12 @@ button{
 }
 /*end of different gallery*/
 /*artists*/
+/* Styles for the main art section container*/
 #art{
     width: 100%;
     padding: 70px 0;
 }
+/* Styles for the first paragraph within the title*/
 .title .p1{
     color: black;
     padding-top: 30px;
@@ -371,6 +404,7 @@ button{
     font-style: italic;
     text-align: center;
 }
+/* Styles for art rows*/
 .art-row{
     width: 80%;
     margin: auto;
@@ -379,6 +413,7 @@ button{
     align-items: flex-start;
     flex-wrap: wrap;
 }
+/* Styles for individual art columns*/
 .art-col{
     flex-basis: 28%;
     padding: 5px;
@@ -388,24 +423,29 @@ button{
     cursor: pointer;
     transition: transform .3s;
 }
+/* Styles for images within the columns*/
 .art-col img{
     width: 100%;
 }
+/* Styles for paragraphs within the columns*/
 .art-col p{
     font-size: 14px;
     text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+/* Styles for user information within the columns*/
 .user h4{
     font-size: 30px;
     color: #18554f;
     text-align: center;
     font-family: monospace;
 }
+/*style for image*/
 .user img{
     margin-right: 20px;
     border-radius: 3px;
 }
+/* Hover effect for art columns*/
 .art-col:hover{
     transform: translateY(-7px);
 }
@@ -436,6 +476,7 @@ button{
 }
 /*end of aritsts*/
 /*FOOTER*/
+/* Styles for the main footer container*/
 .footer-dist{
     background: #666;
     box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
@@ -445,26 +486,32 @@ button{
     font: bold 16px sans-serif;
     padding: 55px 50px;
 }
+/* Styles for footer sections (left, center, right)*/
 .footer-dist .footer-left,
 .footer-dist .footer-center,
 .footer-dist .footer-right{
   display: inline-block;
   vertical-align: top;
 }
+/* Styles for the left footer section*/
 .footer-dist .footer-left{
     width: 40%;
 }
+/* Styles for footer images*/
 footer img{
     width: 140px;
 }
+ /* Specific color for footer images */
 .footer-dist img{
     color:  lightseagreen;
 }
+/* Styles for footer links*/
 .footer-dist .footer-links{
     color:  #ffffff;
     margin: 20px 0 12px;
     padding: 0;
 }
+/* Styles for individual footer links*/
 .footer-dist .footer-links a{
     display:inline-block;
     line-height: 1.8;
@@ -472,16 +519,18 @@ footer img{
     text-decoration: none;
     color:  inherit;
 }
-
+/* Styles for the gallery name in the left footer section*/
 .footer-dist .footer-gallery-name{
     color:  #222;
     font-size: 20px;
     font-weight: normal;
     margin: 0;
 }
+/* Styles for the center footer section*/
 .footer-dist .footer-center{
     width: 35%;
 }
+/* Styles for icons in the center footer section*/
 .footer-dist .footer-center i{
     background-color:  #33383b;
     color: #ffffff;
@@ -494,10 +543,12 @@ footer img{
     margin: 10px 15px;
     vertical-align: middle;
 }  
+/* Specific adjustment for envelope icon*/
 .footer-dist .footer-center i.fa-envelope{
     font-size: 17px;
     line-height: 38px;
 }
+/* Styles for text elements in the center footer section*/
 .footer-dist .footer-center p{
     display: inline-block;
     color: #ffffff;
@@ -505,17 +556,19 @@ footer img{
     vertical-align: middle;
     margin:0;
 }
+/* Styles for span elements within text*/
 .footer-dist .footer-center p span{
     display:block;
     font-weight: normal;
     font-size:14px;
     line-height:2;
 }
+/* Styles for links within text elements*/
 .footer-dist .footer-center p a{
     color:  lightseagreen;
     text-decoration: none;;
 }
-
+/* Separator for footer links*/
 .footer-dist .footer-links a:before {
     content: "|";
     font-weight:300;
@@ -525,13 +578,15 @@ footer img{
     display: inline-block;
     padding-right: 5px;
 }
+/* Removes the separator from the first link*/
 .footer-dist .footer-links .link-1:before {
     content: none;
 }
-
+/* Styles for the right footer section*/
 .footer-dist .footer-right{
     width: 20%;
 }
+/* Styles for gallery information in the right footer section*/
 .footer-dist .footer-gallery-about{
     line-height: 20px;
     color:  #92999f;
@@ -539,6 +594,7 @@ footer img{
     font-weight: normal;
     margin: 0;
 }
+/* Styles for the heading within gallery information*/
 .footer-dist .footer-gallery-about span{
     display: block;
     color:  #ffffff;
@@ -546,9 +602,11 @@ footer img{
     font-weight: bold;
     margin-bottom: 20px;
 }
+/* Styles for footer icons*/
 .footer-dist .footer-icons{
     margin-top: 25px;
 }
+/* Styles for individual footer icons*/
 .footer-dist .footer-icons a{
     display: inline-block;
     width: 35px;
