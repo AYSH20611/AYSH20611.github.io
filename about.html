@@ -12,12 +12,14 @@
     
 </head>
 <body>
+    <!--landing page-->
     <section id="banner">
         <img src="icon.png" class="icon">
         <div class="banner-text">
             <h1>About</h1>  
         </div>
     </section>
+    <!--menu bar-->
     <div id="sideNav">
         <nav>
             <ul>
@@ -28,10 +30,14 @@
             </ul>
         </nav>
     </div>
+    <!--menu button-->
     <div id="menuBtn">
         <img src="menu.png" id="menu">
     </div>
+<!--end of landing page-->
+<!--topic 1-->
 <section class="sec">
+    <!--paragraph-->
     <div class="title">
         <p>Deliver the highest museum standards to preserve collections & enhance 
         an appreciation of culture and learning through our exhibitions, educational and community programs.
@@ -41,11 +47,13 @@
         The primary purpose of an art gallery is to nurture visual artists, promote their work, and expose them to 
         the public, collectors, media, and cultural institutions</p>
     </div>
-
+     <!--end of paragraph-->
+    <!--topic 2-->
     <div class="container">
         <div class="slider-wrapper">
             <button id="prev-slide" class="slide-button material-symbols-outlined">chevron_left</button>
             <div class="image-list">
+                <!--image list-->
                 <img src="img1.jpg" class="image-item">
                 <img src="img2.jpg" class="image-item">
                 <img src="img3.jpg" class="image-item">
@@ -63,14 +71,17 @@
         </div>
     </div>
 </section>
-
+<!--end of topic 2-->
+<!--topic 3-->
 <section class="gallery">
+    <!--heading-->
     <div class="title">
-    <h1 ><span class="underline">Art Galleries</span></h1>
+    <h1 >Art Galleries</h1>
     <p>Art galleries play a significant role in the art industry.  
         They are the link between artists and collectors, scouting for new talent
         and continuing to showcase the best artists with their exhibition program.</p>
     </div>
+        <!--image list-->
         <div class="row">
             <div class="gallery-col">
                 <img src="gal1.png">
@@ -92,11 +103,15 @@
             </div>
         </div>
 </section>
+<!--end of topic 3-->
+<!--topic 4-->
 <section id="art">
+    <!--heading-->
     <div class="title">
-        <h1><span class="underline">Great Artists</span></h1>
+        <h1>Great Artists</h1>
         <p class="p1">Famous Artists of all Time</p>
     </div>
+    <!--context-->
     <div class="art-row">
         <div class="art-col">
             <div class="user">
@@ -135,6 +150,8 @@
         </div>
     </div>
 </section>
+<!--end of topic 4-->
+<!--footer-->
 <footer class="footer-dist">
     <div class="footer-left">
         <img src="icon.png">
@@ -174,12 +191,11 @@
         </div>
     </div>
 </footer>
+<!--end of footer-->
 
 
-
-
-<!--MENU-->
     <script>
+        /*MENU*/
         var menuBtn = document.getElementById("menuBtn")
         var sideNav = document.getElementById("sideNav")
         var menu = document.getElementById("menu")
@@ -196,7 +212,7 @@
                 menu.src = "menu.png";
             }
         }
-        
+        /*slider page*/
         const initSlider = () => {
             const imageList = document.querySelector(".slider-wrapper .image-list");
             const slideButton = document.querySelectorAll(".slider-wrapper .slide-button");
