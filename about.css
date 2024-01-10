@@ -176,6 +176,9 @@ button{
     .icon{
         width: 100px;
     }
+    .title p{
+        width: 90%;
+    }
 }
 /*media query*/
 @media screen and (max-width:480px){
