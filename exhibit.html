@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="exhibit.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/3477ae541c.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+    <section id="banner">
+        <img src="icon.png" class="icon">
+        <div class="banner-text">
+            <h1>Exhibitions</h1>
+        </div>
+    </section>
+    <div id="sideNav">
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="exhibit.html">Exhibitions</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div id="menuBtn">
+        <img src="menu.png" id="menu">
+    </div>
+<section class="color">
+    <section id="event">
+        <div class="full-img" id="fullImgBox">
+            <img src="e1.jpg" id="fullImg">
+            <span onclick="closeFullImg()">X</span>
+        </div>
+        <div class="img-gallery">
+            <img src="e1.jpg" onclick="openFullImg(this.src)">
+            <img src="e2.jpg" onclick="openFullImg(this.src)">
+            <img src="e3.jpg" onclick="openFullImg(this.src)">
+            <img src="e4.jpg" onclick="openFullImg(this.src)">
+            <img src="e5.jpg" onclick="openFullImg(this.src)">
+            <img src="e6.jpg" onclick="openFullImg(this.src)">
+            <img src="e7.jpg" onclick="openFullImg(this.src)">
+            <img src="e8.jpg" onclick="openFullImg(this.src)">
+            <img src="e9.jpg" onclick="openFullImg(this.src)">
+            <img src="e10.jpg" onclick="openFullImg(this.src)">
+            <img src="e11.jpg" onclick="openFullImg(this.src)">
+            <img src="e12.jpg" onclick="openFullImg(this.src)">
+        </div>
+    </section>
+    <section id="exhibit">
+        <div class="title-text">
+            <h1><span class="underline">Exhibits</span></h1>
+            <p>Art lovers are in for a treat this summer as there are loads
+             of exhibitions carrying on throughout the season.</p>
+        </div>
+        <div class="exhibit-row">
+            <div class="exhibit-col">
+                <div class="user">
+                    <img src="eh1.png">
+                    <div class="user-info">
+                        <h4>Digital Art <i class="fa-brands fa-artstation"></i></h4>
+                        <small>@digitalart</small>
+                    </div>
+                </div>
+                <p>The Van Gogh X Japan exhibition is a digital event that explores the relationship
+                 between the Japanese Ukiyo-e style and Van Gogh's paintings. A story told from the 
+                 360-degree perspective, the walk-through gallery exhibition is running from Friday 
+                 July 14 to Monday July 31, from 10am to 10pm.</p>
+            </div>
+            <div class="exhibit-col">
+                <div class="user">
+                    <img src="eh2.png">
+                    <div class="user-info">
+                        <h4>Isthmus <i class="fa-brands fa-artstation"></i></h4>
+                        <small>@isthmus</small>
+                    </div>
+                </div>
+                <p>An exhibition curated by Sophie Mayuko Arni, Isthmus is a collection of photographs 
+                showcasing the human experience through design choice. The images depict furniture, objects,
+                 wall trimmings and windows to display socio-economic and culture over the decades. Shots 
+                 include images of the Queen Elizabeth II.</p>
+            </div>
+            <div class="exhibit-col">
+                <div class="user">
+                    <img src="eh3.png">
+                    <div class="user-info">
+                        <h4>Handle with Care <i class="fa-brands fa-artstation"></i></h4>
+                        <small>@Care</small>
+                    </div>
+                </div>
+                <p>This display of work by Italian artist Giampiero Romanò showcases his mirror-centric art pieces.
+                 Famed for his use of antique mirrors, the creative uses antique framed mirrors to create modern art. 
+                 Representing the past and the present in each piece, the artist includes the person looking into the
+                  mirror as part. </p>
+            </div>
+        </div>
+    </section>
+    <section class="sec">
+        <div class="title">
+            <h1><span class="underline">More about exhibits...</span></h1>
+        </div>
+        <div class="container">
+            <div class="gallery">
+                <div class="img-box"><h3>Alessandira Aita</h3></div>
+                <div class="img-box"><h3>Wearable Art</h3></div>
+                <div class="img-box"><h3>WWP</h3></div>
+                <div class="img-box"><h3>Rose Garden</h3></div>
+            </div>
+        </div>
+    </section>
+    <section class="sec1">  
+        <div class="container-1">
+            <h3 class="title"><span class="underline">ART ON SALE</span></h3>
+            <div class="menu-container">
+                <div class="menu" data-name="c-1">
+                    <img src="g1.jpg">
+                    <h3>Forest</h3>
+                    <div class="price">$1,995</div>
+                </div>
+                <div class="menu" data-name="c-2">
+                    <img src="g2.jpg">
+                    <h3>Koi</h3>
+                    <div class="price">$4,660</div>
+                </div>
+                <div class="menu" data-name="c-3">
+                    <img src="g3.jpg">
+                    <h3>Woods</h3>
+                    <div class="price">$2,993</div>
+                </div>
+                <div class="menu" data-name="c-4">
+                    <img src="g4.jpg">
+                    <h3>The Clouds</h3>
+                    <div class="price">$5,965</div>
+                </div>
+                <div class="menu" data-name="c-5">
+                    <img src="g5.jpg">
+                    <h3>Feel The Joy</h3>
+                    <div class="price">$2,796</div>
+                </div>
+                <div class="menu" data-name="c-6">
+                    <img src="g6.jpg">
+                    <h3>Entropy Fluid State</h3>
+                    <div class="price">$2,3996</div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="menu-preview">
+            <div class="preview active" data-target="c-1">
+                <i class="fa-solid fa-xmark"></i>
+                <img src="g1.jpg">
+                <h3>Forest</h3>
+                <div class="stars">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half"></i>
+                </div>
+                <p>79 CM H X 100 CM W</p>
+                <div class="price">$1,995</div>
+                <a href="#" class="order">Buy now</a>
+            </div>
+            <div class="preview" data-target="c-2">
+                <i class="fa-solid fa-xmark"></i>
+                <img src="g2.jpg">
+                <h3>Koi</h3>
+                <div class="stars">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half"></i>
+                </div>
+                <p>20 CM H X 20 CM W</p>
+                <div class="price">$4,660</div>
+                <a href="#" class="order">Buy now</a>
+            </div>
+            <div class="preview" data-target="c-3">
+                <i class="fa-solid fa-xmark"></i>
+                <img src="g3.jpg">
+                <h3>Woods</h3>
+                <div class="stars">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half"></i>
+                </div>
+                <p>60 CM H X 60 CM W</p>
+                <div class="price">$2,993</div>
+                <a href="#" class="order">Buy now</a>
+            </div>
+            <div class="preview" data-target="c-4">
+                <i class="fa-solid fa-xmark"></i>
+                <img src="g4.jpg">
+                <h3>Clouds</h3>
+                <div class="stars">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half"></i>
+                </div>
+                <p>60 CM H X 60 CM W</p>
+                <div class="price">$5,965</div>
+                <a href="#" class="order">Buy now</a>
+            </div>
+            <div class="preview" data-target="c-5">
+                <i class="fa-solid fa-xmark"></i>
+                <img src="g5.jpg">
+                <h3>Feel The Joy</h3>
+                <div class="stars">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half"></i>
+                </div>
+                <p> 85 CM H X 65 CM W</p>
+                <div class="price">$2,796</div>
+                <a href="#" class="order">Buy now</a>
+            </div>
+            <div class="preview" data-target="c-6">
+                <i class="fa-solid fa-xmark"></i>
+                <img src="g6.jpg">
+                <h3>Entropy Fluid State</h3>
+                <div class="stars">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star-half"></i>
+                </div>
+                <p> 90 CM H X 60 CM W</p>
+                <div class="price">$2,3996</div>
+                <a href="#" class="order">Buy now</a>
+            </div>
+        </div>
+    </section>
+    <footer class="footer-dist">
+        <div class="footer-left">
+            <img src="icon.png">
+            <p class="footer-links">
+                <a href="index.html" class="link-1">Home</a>
+                <a href="about.html">About</a>
+                <a href="exhibit.html">Exhibitions</a>
+                <a href="contact.html">Contact</a>
+            </p>
+            <p class="footer-company-name">Artistry &copy; 2024</p>
+        </div>
+        <div class="footer-center">
+            <div>
+                <i class="fa fa-map"></i>
+                <p><span>Robert Robertson, 1234 NW Bobcat Lane,</span>St. Robert, MO 65584-5678.</p>
+            </div>
+            <div>
+                <i class="fa fa-phone"></i>
+                <p>+1.123456789</p>
+            </div>
+            <div>
+                <i class="fa fa-envelope"></i>
+                <p><a href="artistry@gallery">artistry@gallery</a></p>
+            </div>
+        </div>
+        <div class="footer-right">
+            <p class="footer-gallery-about">
+                <span>About the Gallery</span>
+                <p> ipsum dolor sit amet, consectateur adispicing elit.
+                 Fusce euismod convallis velit, eu auctor lacus vehicula sit amet.</p>
+            </p>
+            <div class="footer-icons">
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+        </div>
+    </footer>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+    
+    <script>
+        var menuBtn = document.getElementById("menuBtn")
+        var sideNav = document.getElementById("sideNav")
+        var menu = document.getElementById("menu")
+
+        sideNav.style.right = "-250px";
+
+        menuBtn.onclick = function(){
+            if(sideNav.style.right == "-250px"){
+                sideNav.style.right = "0";
+                menu.src = "cross.png";
+            }
+            else{
+                sideNav.style.right = "-250px";
+                menu.src = "menu.png";
+            }
+        }
+
+        /*image click*/
+        var fullImgBox = document.getElementById("fullImgBox");
+        var fullImg = document.getElementById("fullImg");
+
+        function openFullImg(pic){
+            fullImgBox.style.display = "flex";
+            fullImg.src = pic;
+        }
+        function closeFullImg(){
+            fullImgBox.style.display = "none";
+        }
+
+        /*more about exhibits*/
+        const panels = document.querySelectorAll(".panel");
+
+        panels.forEach((panel) => {
+            panel.addEventListener("click", () => {
+                removeActiveClasses();
+                panel.classList.add("active");
+            });
+        });
+        const removeActiveClasses = () => {
+            panels.forEach((panel) => {
+                panel.classList.remove("active");
+            });
+        };
+
+        /*sale*/
+        let preveiwMenue = document.querySelector('.menu-preview');
+let previewBox = preveiwMenue.querySelectorAll('.preview');
+
+document.querySelectorAll('.menu-container .menu').forEach(product =>{
+  product.onclick = () =>{
+    preveiwMenue.style.display = 'flex';
+    let name = product.getAttribute('data-name');
+    previewBox.forEach(preview =>{
+      let target = preview.getAttribute('data-target');
+      if(name == target){
+        preview.classList.add('active');
+      }
+    });
+  };
+});
+
+previewBox.forEach(close =>{
+  close.querySelector('.fa-xmark').onclick = () =>{
+    close.classList.remove('active');
+    preveiwMenue.style.display = 'none';
+  };
+});
+    </script>
+</body>
+</html>
